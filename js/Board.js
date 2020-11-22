@@ -1,5 +1,5 @@
 class Board {
-    constructor(rows, columns, spaces) {
+    constructor() {
         this.rows = 6;
         this.columns = 7;
         this.speces = [];
