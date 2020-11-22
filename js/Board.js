@@ -9,7 +9,6 @@ class Board {
      * Generates 2D array of spaces.
      * @return  {Array}     An array of space objects
      */
-
     createSpaces(){
         const spaces = [];
 
