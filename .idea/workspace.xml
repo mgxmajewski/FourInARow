@@ -16,12 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds method to Player class&#10;Creates createTokens() method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Develops method in Player class">
+      <change beforePath="$PROJECT_DIR$/js/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Board.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606061766660</updated>
-      <workItem from="1606061767706" duration="4141000" />
+      <workItem from="1606061767706" duration="4716000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -103,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606065929307</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Develops method in Player class">
+      <created>1606066490355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606066490355</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +136,8 @@
     <MESSAGE value="Adds classes&#10;Creates files with declared classes." />
     <MESSAGE value="Adds player properties.&#10;Creates constructor in Player class" />
     <MESSAGE value="Adds method to Player class&#10;Creates createTokens() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds method to Player class&#10;Creates createTokens() method" />
+    <MESSAGE value="Develops method in Player class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Develops method in Player class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606062654757">
@@ -136,10 +148,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="183" y="97" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606064604111" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606065932206">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606066491678">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606065932206" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606066491678" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606065059063">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
