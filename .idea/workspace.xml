@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds player properties.&#10;Creates constructor in Player class">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds method to Player class&#10;Creates createTokens() method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
     </list>
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606061766660</updated>
-      <workItem from="1606061767706" duration="3362000" />
+      <workItem from="1606061767706" duration="4141000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606064981410</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adds method to Player class&#10;Creates createTokens() method">
+      <created>1606065929307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606065929307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +124,8 @@
     <MESSAGE value="Tests GitHub sync." />
     <MESSAGE value="Adds classes&#10;Creates files with declared classes." />
     <MESSAGE value="Adds player properties.&#10;Creates constructor in Player class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds player properties.&#10;Creates constructor in Player class" />
+    <MESSAGE value="Adds method to Player class&#10;Creates createTokens() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds method to Player class&#10;Creates createTokens() method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606062654757">
@@ -128,10 +136,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="183" y="97" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606064604111" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606065077570">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606065932206">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606065077570" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606065932206" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606065059063">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
