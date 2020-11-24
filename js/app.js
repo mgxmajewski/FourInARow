@@ -1,8 +1,5 @@
 const game = new Game();
 
-/**
- * Test commit
- */
 
  document.getElementById('begin-game').addEventListener('click', function () {
     game.startGame();
