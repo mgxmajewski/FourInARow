@@ -1,5 +1,5 @@
 class Token {
-    constructor(index, owner) {
+    constructor(index, owner){
         this.owner = owner;
         this.id = `token-${index}-${owner.id}`;
         this.dropped = false;
@@ -7,7 +7,7 @@ class Token {
 
     /**
      * Gets associated htmlToken.
-     * @return {element} Html element asocciated with token object.
+     * @return  {element}   Html element associated with token object.
      */
     get htmlToken() {
         return document.getElementById(this.id);
@@ -20,8 +20,7 @@ class Token {
         const token = document.createElement('div');
         document.getElementById('game-board-underlay').appendChild(token);
         token.setAttribute('id', this.id);
-        token.setAttribute('class','token');
+        token.setAttribute('class', 'token');
         token.style.backgroundColor = this.owner.color;
-
     }
 }

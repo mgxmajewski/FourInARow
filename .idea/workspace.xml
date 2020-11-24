@@ -24,9 +24,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds getter method&#10;activePlayer() in Game class">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds startGame() method&#10;in Game class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Board.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Space.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +71,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage3 - Rendering the Game/Stage3Step10 - startGame() Method Solution/index.html" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage3 - Rendering the Game/Stage3Step10 - startGame() Method Solution/index.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Game.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/Game.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Game.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +96,10 @@
       <updated>1606061766660</updated>
       <workItem from="1606061767706" duration="11510000" />
       <workItem from="1606084855036" duration="748000" />
-      <workItem from="1606175829159" duration="3316000" />
+      <workItem from="1606175829159" duration="4503000" />
+      <workItem from="1606181549638" duration="409000" />
+      <workItem from="1606182072438" duration="4000" />
+      <workItem from="1606233057096" duration="1663000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -201,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606179546657</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adds startGame() method&#10;in Game class">
+      <created>1606180507622</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606180507622</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +260,8 @@
     <MESSAGE value="Adds render method&#10;drawHTMLToken() in Token class" />
     <MESSAGE value="Adds getter methods&#10;unusedTokens() and&#10;activeToken() in Player class" />
     <MESSAGE value="Adds getter method&#10;activePlayer() in Game class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds getter method&#10;activePlayer() in Game class" />
+    <MESSAGE value="Adds startGame() method&#10;in Game class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds startGame() method&#10;in Game class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="205" width="1000" height="750" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1606085166603">
@@ -245,21 +272,29 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606062654757" />
-    <state x="183" y="97" key="DiffContextDialog" timestamp="1606064604111">
+    <state x="183" y="97" width="1536" height="956" key="DiffContextDialog" timestamp="1606234720598">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="183" y="97" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606064604111" />
+    <state x="183" y="97" width="1536" height="956" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606234720598" />
+    <state x="686" y="275" key="FileChooserDialogImpl" timestamp="1606234688486">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="686" y="275" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606234688486" />
     <state x="350" y="138" key="SettingsEditor" timestamp="1606085162393">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606085162393" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606179561567">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606180513595">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606179561567" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606180513595" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606065059063">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606065059063" />
+    <state x="539" y="125" width="840" height="1034" key="search.everywhere.popup" timestamp="1606181722905">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="539" y="125" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606181722905" />
   </component>
 </project>
