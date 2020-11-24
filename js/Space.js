@@ -1,5 +1,5 @@
 class Space {
-    constructor(x,y) {
+    constructor(x, y) {
         this.x = x;
         this.y = y;
         this.id = `space-${x}-${y}`;
@@ -11,7 +11,7 @@ class Space {
     /**
      *  Draw SVG space
      */
-    drawSVGSpace(){
+    drawSVGSpace() {
         const svgSpace = document.createElementNS("http://www.w3.org/2000/svg", "circle");
         svgSpace.setAttributeNS(null, "id", this.id);
         svgSpace.setAttributeNS(null, "cx", (this.x * this.diameter) + this.radius);
