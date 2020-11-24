@@ -24,10 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds drop() method">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds PlayToken() method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +66,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage3 - Rendering the Game/Stage3Step10 - startGame() Method Solution/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step9 - playToken() Method Solution/js/app.js" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage3 - Rendering the Game/Stage3Step10 - startGame() Method Solution/index.html" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step9 - playToken() Method Solution/js/app.js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -99,7 +98,7 @@
       <workItem from="1606175829159" duration="4503000" />
       <workItem from="1606181549638" duration="409000" />
       <workItem from="1606182072438" duration="4000" />
-      <workItem from="1606233057096" duration="12814000" />
+      <workItem from="1606233057096" duration="15057000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -283,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606245747608</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adds PlayToken() method">
+      <created>1606247671218</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606247671218</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +329,8 @@
     <MESSAGE value="Adds handleKeydown() method with event listener&#10;to Game class" />
     <MESSAGE value="Adds moveLeft() moveRight() methods&#10;to Token class + offsetleft(), updates handleKeydown() in Game class" />
     <MESSAGE value="Adds drop() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds drop() method" />
+    <MESSAGE value="Adds PlayToken() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds PlayToken() method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="360" key="#Notifications" timestamp="1606237454543">
@@ -338,14 +345,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606062654757" />
-    <state x="183" y="97" width="1536" height="956" key="DiffContextDialog" timestamp="1606239513061">
+    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog" timestamp="1606258625140">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="183" y="97" width="1536" height="956" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606239513061" />
-    <state x="686" y="275" key="FileChooserDialogImpl" timestamp="1606234688486">
+    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606258625140" />
+    <state x="686" y="275" key="FileChooserDialogImpl" timestamp="1606258503314">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="686" y="275" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606234688486" />
+    <state x="686" y="275" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606258503314" />
     <state width="1891" height="378" key="GridCell.Tab.0.bottom" timestamp="1606237590895">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -418,10 +425,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606085162393" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606245779212">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606247674301">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606245779212" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606247674301" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
