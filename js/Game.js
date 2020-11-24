@@ -26,8 +26,11 @@ class Game {
 
     /**
      * Listens for click on `#begin-game` and calls startGame() on game object
+     * Initializes game.
      */
     startGame(){
-
+        this.board.drawHTMLBoard();
+        this.activePlayer.activeToken.drawHTMLToken();
+        this.ready = true;
     }
 }
