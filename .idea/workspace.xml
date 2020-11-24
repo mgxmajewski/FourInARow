@@ -25,12 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Fixes eventlistener for arrows">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Board.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Space.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +66,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step9 - playToken() Method Solution/js/Token.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step9 - playToken() Method Solution/js/Game.js" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step9 - playToken() Method Solution/js/Token.js" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step9 - playToken() Method Solution/js/Game.js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -102,7 +98,7 @@
       <workItem from="1606175829159" duration="4503000" />
       <workItem from="1606181549638" duration="409000" />
       <workItem from="1606182072438" duration="4000" />
-      <workItem from="1606233057096" duration="16180000" />
+      <workItem from="1606233057096" duration="16664000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -300,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606258928694</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fixes eventlistener for arrows">
+      <created>1606259949186</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606259949186</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,14 +360,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606062654757" />
-    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog" timestamp="1606259748495">
+    <state x="183" y="97" width="1536" height="956" key="DiffContextDialog" timestamp="1606260232745">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606259748495" />
-    <state x="686" y="275" key="FileChooserDialogImpl" timestamp="1606259582799">
+    <state x="183" y="97" width="1536" height="956" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606260232745" />
+    <state x="686" y="275" key="FileChooserDialogImpl" timestamp="1606260146618">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="686" y="275" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606259582799" />
+    <state x="686" y="275" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606260146618" />
     <state width="1891" height="378" key="GridCell.Tab.0.bottom" timestamp="1606237590895">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -437,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606085162393" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606258937121">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606259990086">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606258937121" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606259990086" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
