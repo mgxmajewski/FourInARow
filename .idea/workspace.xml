@@ -24,9 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds render methods&#10;drawHTMLBoard() in Borad class and drawSVGSpace() in Spaces class">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds render method&#10;drawHTMLToken() in Token class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/mgxmajewski/FourInARow" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1keWvNscP3iPVaJiNRK68gxcCTe" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,6 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +78,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606061766660</updated>
-      <workItem from="1606061767706" duration="10964000" />
+      <workItem from="1606061767706" duration="11510000" />
+      <workItem from="1606084855036" duration="748000" />
+      <workItem from="1606175829159" duration="1943000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -164,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606075110531</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adds render method&#10;drawHTMLToken() in Token class">
+      <created>1606075535980</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606075535980</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +203,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tests GitHub sync." />
@@ -193,9 +217,14 @@
     <MESSAGE value="Creates createPlayers method in Game class" />
     <MESSAGE value="Creates Interaction Layer&#10;Connecting with the DOM" />
     <MESSAGE value="Adds render methods&#10;drawHTMLBoard() in Borad class and drawSVGSpace() in Spaces class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds render methods&#10;drawHTMLBoard() in Borad class and drawSVGSpace() in Spaces class" />
+    <MESSAGE value="Adds render method&#10;drawHTMLToken() in Token class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds render method&#10;drawHTMLToken() in Token class" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="460" y="205" width="1000" height="750" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1606085166603">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="460" y="205" width="1000" height="750" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606085166603" />
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606062654757">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -204,10 +233,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="183" y="97" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606064604111" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606075116806">
+    <state x="350" y="138" key="SettingsEditor" timestamp="1606085162393">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606075116806" />
+    <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606085162393" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606075546450">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606075546450" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606065059063">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
