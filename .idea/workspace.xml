@@ -24,10 +24,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds handleKeydown() method with event listener&#10;to Game class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds moveLeft() moveRight() methods&#10;to Token class + offsetleft(), updates handleKeydown() in Game class">
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1606175829159" duration="4503000" />
       <workItem from="1606181549638" duration="409000" />
       <workItem from="1606182072438" duration="4000" />
-      <workItem from="1606233057096" duration="9497000" />
+      <workItem from="1606233057096" duration="9949000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -262,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606238916803</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Adds moveLeft() moveRight() methods&#10;to Token class + offsetleft(), updates handleKeydown() in Game class">
+      <created>1606244208615</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606244208615</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +305,8 @@
     <MESSAGE value="Commit to test mouse macro&#10;to speedup comitting" />
     <MESSAGE value="Commit to test mouse macro 2" />
     <MESSAGE value="Adds handleKeydown() method with event listener&#10;to Game class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds handleKeydown() method with event listener&#10;to Game class" />
+    <MESSAGE value="Adds moveLeft() moveRight() methods&#10;to Token class + offsetleft(), updates handleKeydown() in Game class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds moveLeft() moveRight() methods&#10;to Token class + offsetleft(), updates handleKeydown() in Game class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="360" key="#Notifications" timestamp="1606237454543">
@@ -395,10 +401,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606085162393" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606238921760">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606244220704">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606238921760" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606244220704" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
