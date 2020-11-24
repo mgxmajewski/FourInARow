@@ -18,6 +18,7 @@ class Player {
         return tokens;
     }
 
+
     /**
      * Gets all tokens that haven't been dropped.
      * @return {array} Array of unused tokens.
