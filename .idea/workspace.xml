@@ -27,10 +27,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds checkForWin(), getOwner() and mark() methods">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Corrects Game class with checkForWin() method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Space.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1606182072438" duration="4000" />
       <workItem from="1606233057096" duration="19913000" />
       <workItem from="1606333359333" duration="823000" />
-      <workItem from="1606351776356" duration="691000" />
+      <workItem from="1606351776356" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606264320248</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Corrects Game class with checkForWin() method">
+      <created>1606352516328</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1606352516328</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +348,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tests GitHub sync." />
     <MESSAGE value="Adds classes&#10;Creates files with declared classes." />
     <MESSAGE value="Adds player properties.&#10;Creates constructor in Player class" />
     <MESSAGE value="Adds method to Player class&#10;Creates createTokens() method" />
@@ -367,7 +372,8 @@
     <MESSAGE value="Fixes eventlistener for arrows" />
     <MESSAGE value="Fixes typo in Game class" />
     <MESSAGE value="Adds checkForWin(), getOwner() and mark() methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds checkForWin(), getOwner() and mark() methods" />
+    <MESSAGE value="Corrects Game class with checkForWin() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrects Game class with checkForWin() method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="360" key="#Notifications" timestamp="1606237454543">
@@ -462,10 +468,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606263573061" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606264327871">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606352519858">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606264327871" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606352519858" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
