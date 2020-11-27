@@ -27,7 +27,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Corrects Game class with checkForWin() method">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds switchPlayers() and gameOver() methods&#10;in Game class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Final Complete Project/js/Game.js" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Final Complete Project/js/Game.js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -103,7 +103,10 @@
       <workItem from="1606182072438" duration="4000" />
       <workItem from="1606233057096" duration="19913000" />
       <workItem from="1606333359333" duration="823000" />
-      <workItem from="1606351776356" duration="1313000" />
+      <workItem from="1606351776356" duration="1542000" />
+      <workItem from="1606353532241" duration="67000" />
+      <workItem from="1606353607696" duration="785000" />
+      <workItem from="1606439717393" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -329,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606352516328</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Adds switchPlayers() and gameOver() methods&#10;in Game class">
+      <created>1606353153018</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606353153018</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +358,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adds classes&#10;Creates files with declared classes." />
     <MESSAGE value="Adds player properties.&#10;Creates constructor in Player class" />
     <MESSAGE value="Adds method to Player class&#10;Creates createTokens() method" />
     <MESSAGE value="Develops method in Player class" />
@@ -373,7 +382,8 @@
     <MESSAGE value="Fixes typo in Game class" />
     <MESSAGE value="Adds checkForWin(), getOwner() and mark() methods" />
     <MESSAGE value="Corrects Game class with checkForWin() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrects Game class with checkForWin() method" />
+    <MESSAGE value="Adds switchPlayers() and gameOver() methods&#10;in Game class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds switchPlayers() and gameOver() methods&#10;in Game class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="360" key="#Notifications" timestamp="1606237454543">
@@ -464,14 +474,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="636" y="108" key="RollbackChangesDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606237482726" />
-    <state x="350" y="138" key="SettingsEditor" timestamp="1606263573061">
+    <state x="350" y="138" key="SettingsEditor" timestamp="1606354383158">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606263573061" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606352519858">
+    <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606354383158" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606353156804">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606352519858" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606353156804" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
