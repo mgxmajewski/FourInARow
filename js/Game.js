@@ -25,6 +25,7 @@ class Game {
         return players;
     }
 
+
     /**
      * Begins game.
      */
@@ -76,15 +77,17 @@ class Game {
             });
         }
     }
+
+
     /**
      * Updates game state after token is dropped.
-     * @param   {Object}  token  -  The token that's being dropped.
-     * @param   {Object}  target -  Targeted space for dropped token.
+     * @param   {Object}      token  -  The token that's being dropped.
+     * @param   {Object}      target -  Targeted space for dropped token.
      */
     updateGameState(token, target) {
         target.mark(token);
 
-        if (this.checkForWin(target)) {
+        if (!this.checkForWin(target)) {
             this.switchPlayers();
 
             if (this.activePlayer.checkTokens()) {
