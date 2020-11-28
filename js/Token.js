@@ -55,6 +55,7 @@ class Token {
         }
     }
 
+
     /**
      * Drops html token into targeted board space.
      * @param   {Object}   target - Targeted space for dropped token.

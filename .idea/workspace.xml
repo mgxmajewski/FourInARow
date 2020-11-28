@@ -27,9 +27,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds logic to updateGameState() and checkTokens() method">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Fixes Space class order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Space.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +72,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Final Complete Project/js/Game.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Final Complete Project/index.html" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Final Complete Project/js/Game.js" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02_ObjectOrientedJavaScriptByExample/Final Complete Project/index.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -108,7 +111,7 @@
       <workItem from="1606353607696" duration="785000" />
       <workItem from="1606439717393" duration="1158000" />
       <workItem from="1606489387865" duration="948000" />
-      <workItem from="1606525043886" duration="2825000" />
+      <workItem from="1606525043886" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -355,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606527027106</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Fixes playToken() and checkForWin() methods">
+      <created>1606527902350</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606527902350</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fixes Space class order">
+      <created>1606528078419</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1606528078419</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,8 +391,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Develops method in Player class" />
-    <MESSAGE value="Creates constructor in Board.js class" />
     <MESSAGE value="Creates constructor in Space.js class" />
     <MESSAGE value="Creates createSpaces method in Board.js class" />
     <MESSAGE value="Creates createPlayers method in Game class" />
@@ -399,7 +414,9 @@
     <MESSAGE value="Adds switchPlayers() and gameOver() methods&#10;in Game class" />
     <MESSAGE value="Updates playToken() method &#10;with updateGameState()" />
     <MESSAGE value="Adds logic to updateGameState() and checkTokens() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds logic to updateGameState() and checkTokens() method" />
+    <MESSAGE value="Fixes playToken() and checkForWin() methods" />
+    <MESSAGE value="Fixes Space class order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes Space class order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="360" key="#Notifications" timestamp="1606237454543">
@@ -414,14 +431,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606062654757" />
-    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog" timestamp="1606527870588">
+    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog" timestamp="1606528674048">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606527870588" />
-    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl" timestamp="1606527409577">
+    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606528674048" />
+    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl" timestamp="1606528669188">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606527409577" />
+    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606528669188" />
     <state width="1891" height="378" key="GridCell.Tab.0.bottom" timestamp="1606237590895">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -494,10 +511,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606354383158" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606527032388">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606528084632">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606527032388" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606528084632" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

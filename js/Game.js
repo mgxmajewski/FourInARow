@@ -34,6 +34,7 @@ class Game {
         this.ready = true;
     }
 
+
     /**
      * Branches code, depending on what key player presses
      * @param   {Object}    e - Keydown event object
@@ -50,6 +51,10 @@ class Game {
         }
     }
 
+
+    /**
+     * Finds Space object to drop Token into, drops Token
+     */
     playToken(){
         let spaces = this.board.spaces;
         let activeToken = this.activePlayer.activeToken;
@@ -65,11 +70,11 @@ class Game {
         if (targetSpace !== null) {
             const game = this;
             game.ready = false;
-        }
 
-        activeToken.drop(targetSpace, function(){
-            game.updateGameState(activeToken, targetSpace);
-        });
+            activeToken.drop(targetSpace, function(){
+                game.updateGameState(activeToken, targetSpace);
+            });
+        }
     }
     /**
      * Updates game state after token is dropped.
@@ -80,14 +85,13 @@ class Game {
         target.mark(token);
 
         if (this.checkForWin(target)) {
-
             this.switchPlayers();
 
             if (this.activePlayer.checkTokens()) {
                 this.activePlayer.activeToken.drawHTMLToken();
                 this.ready = true;
             } else {
-                this.gameOver('No More tokens');
+                this.gameOver('No more tokens');
             }
         } else {
             this.gameOver(`${target.owner.name} wins!`)
