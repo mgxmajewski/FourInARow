@@ -27,10 +27,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Updates playToken() method &#10;with updateGameState()">
+    <list default="true" id="c9667081-dd73-4ca3-a663-0fe8ffd452b0" name="Default Changelist" comment="Adds logic to updateGameState() and checkTokens() method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <workItem from="1606353607696" duration="785000" />
       <workItem from="1606439717393" duration="1158000" />
       <workItem from="1606489387865" duration="948000" />
-      <workItem from="1606525043886" duration="1747000" />
+      <workItem from="1606525043886" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="Tests GitHub sync.">
       <created>1606062195237</created>
@@ -349,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606440846636</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Adds logic to updateGameState() and checkTokens() method">
+      <created>1606527027106</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1606527027106</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +374,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adds method to Player class&#10;Creates createTokens() method" />
     <MESSAGE value="Develops method in Player class" />
     <MESSAGE value="Creates constructor in Board.js class" />
     <MESSAGE value="Creates constructor in Space.js class" />
@@ -393,7 +398,8 @@
     <MESSAGE value="Corrects Game class with checkForWin() method" />
     <MESSAGE value="Adds switchPlayers() and gameOver() methods&#10;in Game class" />
     <MESSAGE value="Updates playToken() method &#10;with updateGameState()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates playToken() method &#10;with updateGameState()" />
+    <MESSAGE value="Adds logic to updateGameState() and checkTokens() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds logic to updateGameState() and checkTokens() method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="360" key="#Notifications" timestamp="1606237454543">
@@ -408,14 +414,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="686" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606062654757" />
-    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog" timestamp="1606352470065">
+    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog" timestamp="1606527870588">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606352470065" />
-    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl" timestamp="1606352388199">
+    <state x="183" y="97" width="1536" height="956" maximized="true" key="DiffContextDialog/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606527870588" />
+    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl" timestamp="1606527409577">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606352388199" />
+    <state x="522" y="243" width="945" height="610" key="FileChooserDialogImpl/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606527409577" />
     <state width="1891" height="378" key="GridCell.Tab.0.bottom" timestamp="1606237590895">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -488,10 +494,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="350" y="138" key="SettingsEditor/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606354383158" />
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606440848429">
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2" timestamp="1606527032388">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606440848429" />
+    <state x="482" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1920.108.1920.1040@0.0.1920.1160" timestamp="1606527032388" />
     <state x="736" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606237458617">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
